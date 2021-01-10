@@ -32,7 +32,7 @@ class AuthorizeRequest extends AbstractRequest
                 'BrandName' => $model->getCardBrand(),
                 'SuccessUrl' => $model->getSuccessfulUrl(),
                 'FailureUrl' => $model->getFailureUrl(),
-                'InstallmentCount' => $model->getInstallment(),
+                // 'InstallmentCount' => $model->getInstallment(),
                 'SessionInfo' => $model->getAmount(),
             ],
         ]);
